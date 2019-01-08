@@ -4,10 +4,12 @@
   },
   "devDependencies": {
     "@types/koa": "2.0.48",
+    "@types/koa-router": "7.0.37",
     "ts-node": "7.0.1",
     "typescript": "3.2.2"
   },
   "dependencies": {
-    "koa": "2.6.2"
+    "koa": "2.6.2",
+    "koa-router": "7.4.0"
   }
 }
