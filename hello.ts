@@ -1,14 +1,15 @@
 import * as Koa from 'koa';
-import * as Router from 'koa-router';
+import * as bodyParser from 'koa-bodyparser';
 
 const app = new Koa();
 
-const router = new Router();
-router.get('/hello', ctx => {
-    ctx.body = 'Hello!'
+app.use(bodyParser());
+
+app.use(ctx => {
+    ctx.body = ctx.request.body;
 });
 
-app.use(router.routes());
-
-app.listen(3000);
+app.listen(3000, () => {
+    console.log('http://localhost:3000');
+});
 
