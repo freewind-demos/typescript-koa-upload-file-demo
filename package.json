@@ -3,7 +3,11 @@
     "demo": "ts-node hello.ts"
   },
   "devDependencies": {
+    "@types/koa": "2.0.48",
     "ts-node": "7.0.1",
     "typescript": "3.2.2"
+  },
+  "dependencies": {
+    "koa": "2.6.2"
   }
 }
