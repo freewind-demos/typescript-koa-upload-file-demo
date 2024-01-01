@@ -6,14 +6,20 @@
     "@types/koa": "latest",
     "@types/koa-bodyparser": "latest",
     "@types/koa-router": "latest",
+    "@types/koa-static": "latest",
+    "@types/mime-types": "latest",
+    "koa-static": "^5.0.0",
     "ts-node": "latest",
     "typescript": "latest"
   },
   "dependencies": {
+    "@types/formidable": "^3.4.5",
+    "formidable": "3.5.1",
     "koa": "latest",
     "koa-body": "latest",
     "koa-bodyparser": "latest",
     "koa-router": "latest",
+    "koa-static": "latest",
     "mime-types": "latest"
   }
 }
