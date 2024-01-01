@@ -1,9 +1,9 @@
-TypeScript Koa Post Json Demo
+TypeScript Koa Upload File Demo
 =============================
 
 ```
 npm install
-npm run demo
+npm start
 ```
 
 Then:

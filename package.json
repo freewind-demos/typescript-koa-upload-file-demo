@@ -1,17 +1,19 @@
 {
-    "scripts": {
-        "start": "ts-node hello.ts"
-    },
-    "devDependencies": {
-        "@types/koa": "2.13.12",
-        "@types/koa-bodyparser": "4.3.12",
-        "@types/koa-router": "7.4.8",
-        "ts-node": "10.9.2",
-        "typescript": "5.3.3"
-    },
-    "dependencies": {
-        "koa": "2.15.0",
-        "koa-bodyparser": "4.4.1",
-        "koa-router": "12.0.1"
-    }
+  "scripts": {
+    "start": "ts-node hello.ts"
+  },
+  "devDependencies": {
+    "@types/koa": "latest",
+    "@types/koa-bodyparser": "latest",
+    "@types/koa-router": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "koa": "latest",
+    "koa-body": "latest",
+    "koa-bodyparser": "latest",
+    "koa-router": "latest",
+    "mime-types": "latest"
+  }
 }
