@@ -8,12 +8,12 @@
     "@types/koa-router": "latest",
     "@types/koa-static": "latest",
     "@types/mime-types": "latest",
-    "koa-static": "^5.0.0",
+    "koa-static": "5.0.0",
     "ts-node": "latest",
-    "typescript": "latest"
+    "typescript": "5.3.3"
   },
   "dependencies": {
-    "@types/formidable": "^3.4.5",
+    "@types/formidable": "3.4.5",
     "formidable": "3.5.1",
     "koa": "latest",
     "koa-body": "latest",
